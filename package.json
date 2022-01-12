@@ -1,0 +1,25 @@
+{
+  "name": "@open-automaton/jsdom-mining-engine",
+  "version": "0.0.1",
+  "main": "src/jsdom.js",
+  "description": "A bare bones web scraping engine with dynamic script execution",
+  "dependencies": {
+    "@open-automaton/automaton-engine": "0.0.7",
+    "async-arrays": "^1.0.1",
+    "async-fn-callback": "0.0.1",
+    "extended-emitter": "^1.1.0",
+    "jsdom": "^19.0.0",
+    "postman-request": "^2.88.1-postman.31",
+    "querystring": "^0.2.1"
+  },
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha"
+  },
+  "devDependencies": {
+    "@open-automaton/automaton": "0.0.7",
+    "body-parser": "^1.19.1",
+    "chai": "^4.3.4",
+    "express": "^4.17.2",
+    "mocha": "^9.1.3"
+  }
+}
